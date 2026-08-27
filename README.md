@@ -1,10 +1,10 @@
-# 📈 Stock Price Predictor
+#  Stock Price Predictor
 
 A machine-learning project that predicts stock prices using historical market data, technical indicators, **Linear Regression**, and an **LSTM neural network**.
 
 ---
 
-## 🚀 Features
+## Features
 
 | Feature | Detail |
 |---------|--------|
@@ -16,7 +16,7 @@ A machine-learning project that predicts stock prices using historical market da
 
 ---
 
-## 🛠️ Setup
+## Setup
 
 ```bash
 # Clone the repo
@@ -32,7 +32,7 @@ python stock_predictor.py
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 ```
 numpy
@@ -46,7 +46,7 @@ tensorflow
 
 ---
 
-## 📊 How It Works
+## How It Works
 
 ### 1. Data Collection
 Downloads 5 years of daily OHLCV data from Yahoo Finance for the chosen ticker (default: `AAPL`).
@@ -80,7 +80,7 @@ Computes 11 technical indicators:
 
 ---
 
-## 📁 Output
+##  Output
 
 ```
 results/
@@ -90,7 +90,7 @@ results/
 
 ---
 
-## 🔧 Configuration
+##  Configuration
 
 Change the ticker or time period inside `main()`:
 
@@ -101,7 +101,7 @@ raw_df = load_stock_data(TICKER, period="3y")
 
 ---
 
-## 📸 Sample Output
+##  Sample Output
 
 The script generates:
 1. Historical price chart with MA overlays
@@ -112,12 +112,12 @@ The script generates:
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This project is for **educational purposes only**. Stock price predictions should **not** be used for real financial decisions.
 
 ---
 
-## 🧑‍💻 Tech Stack
+##  Tech Stack
 
 `Python` · `scikit-learn` · `TensorFlow/Keras` · `yfinance` · `Pandas` · `Matplotlib`
